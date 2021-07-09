@@ -4,6 +4,109 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #1e1e1e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 7% 7% 7%;
+}
+
+#card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: -3.375% 0 3.5% 0;
+}
+
+#cards-list {
+  border: 1px solid #ccc;
+  border-top-right-radius: 17.5px;
+  border-bottom-left-radius: 17.5px;
+  width: 32%;
+  float: left;
+  box-shadow: -7px 5.5px 5px #eee;
+  margin-top: 3.5%;
+}
+
+img {
+  width: 100%;
+  height: 275px;
+  border-top-right-radius: 17.5px;
+  border-bottom-left-radius: 17.5px;
+}
+
+#cards-details {
+  padding: 4% 2% 0 4%;
+}
+
+span {
+  float: right;
+  padding-right: 4.5%;
+}
+
+#serving {
+  font-size: 10.5px;
+  padding: 1.5% 0 4% 0;
+}
+
+#description {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+i {
+  float: left;
+  position: relative;
+  top: 27.5px;
+}
+
+.fa-star {
+  color: #FA9E0D;
+}
+
+.fa-star-gray {
+  color: #EEE;
+}
+
+a {
+  text-decoration: none
+}
+
+#add-btn {
+  text-decoration: none;
+  width: 35.5%;
+  float: right;
+  height: auto;
+  text-align: center;
+  background-color: #FA9E0D;
+  margin-right: -2.11%;
+  color: #f1f1f1;
+  font-family: "Helvetica Neue";
+  font-size: 62px;
+  font-weight: 500;
+  border-top-left-radius: 17.5px;
+}
+
+#learn-more-btn {
+  width: 15%;
+  text-align: center;
+  background-color: #FA9E0D;
+  color: #f1f1f1;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body { 
     background-color: #ffda6f;
     color: #1e1e1e;
@@ -24,117 +127,10 @@ body {
     width: 12.5em;
     height: 55px;
     box-sizing: border-box;
-    /* margin-left: -5%; */
     padding-left: 20px;
     font-size: 21px;
     background-color: #f0f0f0;
     color: #8f8f8f;
-    border-radius: 8px;
-  }
-
-  #card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  #cards-div {
-    height: 380px;
-    width: 315px;
-    background-color: #fefefe;
-    border-radius: 10px;
-    margin-right: 9px;
-    margin-left: 9px;
-    margin-top: 25px;
-    padding: 4px;
-    float: left;
-    box-shadow: h-offset(20px 20px 50px grey);
-  }
-  
-  #cards-div:hover {
-    animation: grow 3s;
-  }
-  
-  #cards-div img{
-    height: 230px;
-    width: 100%;
-    background-color: #4d5cb0;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    
-  }
-  
-  h1,h2,h3,h4,h6,h6,p{
-    padding: 0px;
-    margin: 0px;
-  }
-
-  h2.tc {
-    font-size: 22px;
-  }
-
-  p.tc {
-    font-size: 15px;
-    color: #444;
-  }
-
-  .tc {
-    padding: 10px 18px 0 18px;
-  }
-
-  .tc .uname .email .website {
-    font-family: Verdana, sans-serif;
-  }
-  
-  @keyframes grow{
-    0%{
-      transform: scale(1);
-    }
-    50%{
-      transform: scale(1.1);
-    }
-    100%{
-      text-replace: scale(1);
-    }
-  
-  } 
-
-
-/* 
-  * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body { 
-    background-color: #ffda6f;
-    color: #1e1e1e;
-    font-family: Tahoma, sans-serif;
-    padding: 25px 0;
-  }
-
-  form#search-box {
-    display: flex;
-    justify-content: center;
-  }
-
-  .fa-search {
-    font-size: 23px;
-    position: relative;
-    left: 40px;
-    top: 14px;
-  }
-
-  #searchInput {
-    width: 380px;
-    height: 50px;
-    box-sizing: border-box;
-    padding-left: 50px;
-    font-size: 23px;
-    background-color: #f0f0f0;
     border-radius: 8px;
   }
 
