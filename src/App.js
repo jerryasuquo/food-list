@@ -14,6 +14,10 @@ export default class App extends React.Component {
      using .then() again which takes in a callback fn that has a jsonData params, which is the response received, and returns the jsonData
        using .setState() to update our state with the data collected.
        using .catch() which takes in a callback fn that has an error params, and console.log() the err, to catch any errors.
+    
+    using a handleChange() that takes in an event params and this.setState() to update our searchQuery state with the event target value
+    
+    using a form section that takes in an input field which is passed in an onChange attribute that take the value of handleChange()
 
     return a cardlist child component which takes in myMeals as props, and set the value to be this.state.meals
   */
